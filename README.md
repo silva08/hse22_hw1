@@ -49,5 +49,5 @@ seqtk sample -s1208 oilMP_S4_L001_R2_001.fastq 1500000 > mate_pairs2.fastq
 
 ## Уменьшим количество гэпов
 >time platanus gap_close -o Poil -c Poil_contig.fa -IP1 paired_end1.fastq.trimmed paired_end2.fastq.trimmed -OP2 mate_pairs1.fastq.int_trimmed mate_pairs2.fastq.int_trimmed 2>Gaps.log
-
-
+## Ссылка на колаб
+https://colab.research.google.com/drive/16w3yBFgeEyEzoUqBKcjw5nhE2p885GJ0#scrollTo=rbOJ1sd5jdRg
